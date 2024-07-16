@@ -12,15 +12,5 @@ import { InvestmentResultsComponent } from "./investment-results/investment-resu
 })
 
 export class AppComponent {
-onCalculateInvestmentResults($event: InvestmentInput) {
-throw new Error('Method not implemented.');
-}
-  resultsData = signal<{
-    year: number;
-    interest: number;
-    valueEndOfYear: number;
-    annualInvestment: number;
-    totalInterest: number;
-    totalAmountInvested: number;
-  }[] | undefined>(undefined); 
+
 }
